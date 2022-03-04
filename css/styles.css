@@ -33,6 +33,10 @@ article {
 .socials img {
   padding: 1rem;
 }
+
+#rousey {
+  width: 20%;
+}
 header {
   display: flex;
   flex-wrap: nowrap;
