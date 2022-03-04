@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=League+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+article {
+  display: flex;
+  padding: 2rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-left {
+  flex-direction: column;
+}
+.align-right {
+  justify-content: flex-end;
+}
+
+.socials {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials img {
+  padding: 1rem;
+}
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: grey;
+}
+
+h1 {
+  font-family: "League Gothic", sans-serif;
+}
+
+p {
+  font-family: "Hubballi", cursive;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2em;
+}
+a {
+  text-decoration: none;
+  padding-right: 1rem;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.Icon {
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.jumbo {
+  width: 100%;
+  display: flex;
+  padding: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: rgb(206, 206, 206);
+}
+
+.blog-menu a {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.blog-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: rgb(109, 92, 109);
+}
+a:hover {
+  color: purple;
+}
+
+#totop {
+  color: black;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+#normal-hr {
+  color: black;
+}
+
+#my-work {
+  display: flex;
+  flex-direction: column;
+}
+
+#resume {
+  color: black;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 899px) {
+  .full-width {
+    flex-direction: column;
+  }
+  .flex-order {
+    order: 1;
+  }
+
+  #totop {
+    order: 2;
+  }
+}
